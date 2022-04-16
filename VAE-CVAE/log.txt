@@ -1,0 +1,24 @@
+conditional:False, z-02_m1, min loss: 0.039362, min epoch: 189/300
+conditional:False, z-02_m2, min loss: 0.037122, min epoch: 288/300
+conditional:False, z-02_m3, min loss: 0.036552, min epoch: 276/300
+conditional:False, z-02_m4, min loss: 0.037878, min epoch: 165/300
+conditional:False, z-05_m1, min loss: 0.025071, min epoch: 174/300
+conditional:False, z-05_m2, min loss: 0.024199, min epoch: 232/300
+conditional:False, z-05_m3, min loss: 0.023470, min epoch: 251/300
+conditional:False, z-05_m4, min loss: 0.023040, min epoch: 280/300
+conditional:False, z-10_m1, min loss: 0.015637, min epoch: 284/300
+conditional:False, z-10_m2, min loss: 0.014536, min epoch: 277/300
+conditional:False, z-10_m3, min loss: 0.014621, min epoch: 300/300
+conditional:False, z-10_m4, min loss: 0.014175, min epoch: 293/300
+conditional:True , z-02_m1, min loss: 0.033084, min epoch: 123/300
+conditional:True , z-02_m2, min loss: 0.031937, min epoch: 185/300
+conditional:True , z-02_m3, min loss: 0.031546, min epoch: 299/300
+conditional:True , z-02_m4, min loss: 0.031456, min epoch: 272/300
+conditional:True , z-05_m1, min loss: 0.021242, min epoch: 299/300
+conditional:True , z-05_m2, min loss: 0.020755, min epoch: 239/300
+conditional:True , z-05_m3, min loss: 0.020561, min epoch: 236/300
+conditional:True , z-05_m4, min loss: 0.020649, min epoch: 264/300
+conditional:True , z-10_m1, min loss: 0.013968, min epoch: 275/300
+conditional:True , z-10_m2, min loss: 0.013009, min epoch: 212/300
+conditional:True , z-10_m3, min loss: 0.012842, min epoch: 300/300
+conditional:True , z-10_m4, min loss: 0.012852, min epoch: 246/300

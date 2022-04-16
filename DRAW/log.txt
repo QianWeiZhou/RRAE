@@ -1,0 +1,46 @@
+# Parabola
+{'T': 32, 'A': 64, 'B': 64, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 1, 'device': device(type='cuda', index=0)}
+z-50_m1, min loss: 0.00205067, min epoch: 85/100
+{'T': 32, 'A': 64, 'B': 64, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 2, 'device': device(type='cuda', index=0)}
+Parabola, z-50_m2, min MSE: 0.00162487, min epoch: 94/100; Min train loss: 469.65
+{'T': 32, 'A': 64, 'B': 64, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 3, 'device': device(type='cuda', index=0)}
+z-50_m3, min loss: 0.00102750, min epoch: 96/100
+
+{'T': 32, 'A': 64, 'B': 64, 'z_size': 10, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 1, 'device': device(type='cuda', index=0)}
+z-10_m1, min loss: 0.00193691, min epoch: 92/100
+{'T': 32, 'A': 64, 'B': 64, 'z_size': 10, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 3, 'device': device(type='cuda', index=0)}
+z-10_m3, min loss: 0.00111289, min epoch: 86/100
+
+
+
+# MNIST
+{'T': 32, 'A': 28, 'B': 28, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 1, 'device': device(type='cuda', index=0)}
+z-50_m1, min loss: 0.00967235, min epoch: 100/100
+{'T': 32, 'A': 28, 'B': 28, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 2, 'device': device(type='cuda', index=0)}
+mnist, z-50_m2, min MSE: 0.00818480, min epoch: 95/100; Min train loss: 377.87
+{'T': 32, 'A': 28, 'B': 28, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 3, 'device': device(type='cuda', index=0)}
+z-50_m3, min loss: 0.00795464, min epoch: 100/100
+
+{'T': 32, 'A': 28, 'B': 28, 'z_size': 100, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 1, 'device': device(type='cuda', index=0)}
+z-100_m1, min loss: 0.00990517, min epoch: 100/100; Min train loss: 1181.07
+{'T': 32, 'A': 28, 'B': 28, 'z_size': 100, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 3, 'device': device(type='cuda', index=0)}
+z-100_m3, min loss: 0.00823050, min epoch: 100/100; Min train loss: 1178.04
+
+# svhn
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 100, 'read_N': 12, 'write_N': 12, 'dec_size': 800, 'enc_size': 800, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 3, 'multi': 1, 'device': device(type='cuda', index=0)}
+svhn, z-100_m1, min MSE: 0.00425150, min epoch: 65/100; Min train loss: 2986.26
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 100, 'read_N': 12, 'write_N': 12, 'dec_size': 800, 'enc_size': 800, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 3, 'multi': 2, 'device': device(type='cuda', index=0)}
+svhn, z-100_m2, min MSE: 0.00419228, min epoch: 79/100; Min train loss: 2986.05
+
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 3, 'multi': 1, 'device': device(type='cuda', index=0)}
+svhn, z-50_m1, min MSE: 0.00452908, min epoch: 90/100; Min train loss: 2190.34
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 3, 'multi': 2, 'device': device(type='cuda', index=0)}
+svhn, z-50_m2, min MSE: 0.00440695, min epoch: 87/100; Min train loss: 2189.77
+
+
+# Gray-scale svhn
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 1, 'device': device(type='cuda', index=0)}
+svhn, z-50_m1, min MSE: 0.00752465, min epoch: 98/100; Min train loss: 931.21
+{'T': 32, 'A': 32, 'B': 32, 'z_size': 50, 'read_N': 5, 'write_N': 5, 'dec_size': 256, 'enc_size': 256, 'epoch_num': 100, 'learning_rate': 0.001, 'beta1': 0.5, 'clip': 5.0, 'channel': 1, 'multi': 2, 'device': device(type='cuda', index=0)}
+svhn, z-50_m2, min MSE: 0.00742805, min epoch: 89/100; Min train loss: 931.21
+
